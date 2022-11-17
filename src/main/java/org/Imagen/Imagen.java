@@ -1,4 +1,5 @@
 package org.Imagen;
 
-public class Imagen {
+public class Imagen{
+
 }
