@@ -10,7 +10,7 @@ public class TDA_Imagen_MelladoAlex_19684813 implements TDA_OperacionesConUnaIma
     int Ancho;
     List<TDA_Pixel_MelladoAlex_19684813> pixeleslist;
 
-    public TDA_Imagen_MelladoAlex_19684813(int Largo, int Ancho, List<TDA_Pixel_MelladoAlex_19684813> pixeleslist){
+    public TDA_Imagen_MelladoAlex_19684813(int Largo, int Ancho, List<TDA_Pixel_MelladoAlex_19684813> pixeleslist) {
         this.Largo = Largo;
         this.Ancho = Ancho;
         this.pixeleslist = pixeleslist;
@@ -54,13 +54,29 @@ public class TDA_Imagen_MelladoAlex_19684813 implements TDA_OperacionesConUnaIma
     //Dom: No recibe nada como dom
     //Rec: Un booleano
 
-   @Override
-    public void isPixmap(){
-        for(TDA_Pixel_MelladoAlex_19684813 pixel: pixeleslist){
+    @Override
+    public void isPixmap() {
+        for (TDA_Pixel_MelladoAlex_19684813 pixel : pixeleslist) {
             System.out.println(pixel instanceof TDA_Pixrgbd_MelladoAlex_19684813);
         }
-   }
+    }
+    //Funcion que verifica si es un Bitmap
+    //Dom: No recibe nada
+    //Rec: Comprobar si un pixel es del tipo bit
 
+    @Override
+    public void isBitmap() {
+        for (TDA_Pixel_MelladoAlex_19684813 pixel : pixeleslist) {
+            System.out.println(pixel instanceof TDA_Pixbitd_MelladoAlex_19684813);
+        }
+    }
+
+    @Override
+    public void isHexmap() {
+        for (TDA_Pixel_MelladoAlex_19684813 pixel : pixeleslist) {
+            System.out.println(pixel instanceof TDA_Pixhexd_MelladoAlex_19684813);
+        }
+    }
 }
 
 
