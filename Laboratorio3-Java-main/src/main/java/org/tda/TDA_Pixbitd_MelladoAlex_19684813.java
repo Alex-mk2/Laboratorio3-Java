@@ -13,7 +13,7 @@ public class TDA_Pixbitd_MelladoAlex_19684813 extends TDA_Pixel_MelladoAlex_1968
         super(x,y,d);
         this.bit = bit;
     }
-
+    //Selectores pixbit y setters
     public int getBit() {
         return bit;
     }
@@ -25,19 +25,10 @@ public class TDA_Pixbitd_MelladoAlex_19684813 extends TDA_Pixel_MelladoAlex_1968
     @Override
     public String toString() {
         return "Pixbitd{" +
-                "bit=" + bit +
-                ", x=" + x +
+                "x=" + x +
                 ", y=" + y +
+                ", bit=" + bit +
                 ", d=" + d +
                 '}';
-    }
-
-
-    public boolean isABitmap(){
-        if(bit == 0 || bit == 1){
-            return true;
-        }else{
-            return false;
-        }
     }
 }

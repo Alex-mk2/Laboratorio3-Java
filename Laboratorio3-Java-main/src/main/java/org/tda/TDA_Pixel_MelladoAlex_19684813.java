@@ -13,7 +13,7 @@ abstract class TDA_Pixel_MelladoAlex_19684813 {
         this.y = y;
         this.d = d;
     }
-
+    //Selectores y setters para un pixel
     public int getX() {
         return x;
     }

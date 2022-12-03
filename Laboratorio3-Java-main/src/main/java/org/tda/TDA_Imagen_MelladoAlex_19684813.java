@@ -70,6 +70,9 @@ public class TDA_Imagen_MelladoAlex_19684813 implements TDA_OperacionesConUnaIma
             System.out.println(pixel instanceof TDA_Pixbitd_MelladoAlex_19684813);
         }
     }
+    //Pertenencia hexmap
+    //Dom: No recibe nada
+    //Rec: Pertenencia para un hexmap, y saber si es el tipo de pixel
 
     @Override
     public void isHexmap() {

@@ -14,7 +14,7 @@ public class TDA_Pixrgbd_MelladoAlex_19684813 extends TDA_Pixel_MelladoAlex_1968
         this.G = G;
         this.B = B;
     }
-
+    //Selectores para un pixrgb y setters.
     public int getR() {
         return R;
     }
@@ -41,11 +41,11 @@ public class TDA_Pixrgbd_MelladoAlex_19684813 extends TDA_Pixel_MelladoAlex_1968
     @Override
     public String toString() {
         return "Pixrgbd{" +
-                "R=" + R +
-                ", G=" + G +
-                ", B=" + B +
-                ", x=" + x +
+                "x=" + x +
                 ", y=" + y +
+                ", r=" + R +
+                ", g=" + G +
+                ", b=" + B +
                 ", d=" + d +
                 '}';
     }

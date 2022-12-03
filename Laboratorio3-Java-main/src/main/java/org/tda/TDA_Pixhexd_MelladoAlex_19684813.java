@@ -11,7 +11,7 @@ public class TDA_Pixhexd_MelladoAlex_19684813 extends TDA_Pixel_MelladoAlex_1968
         super(x, y, d);
         this.hex = hex;
     }
-
+    //Selectores y setters para un pixhex
     public String getHex() {
         return hex;
     }
@@ -23,14 +23,11 @@ public class TDA_Pixhexd_MelladoAlex_19684813 extends TDA_Pixel_MelladoAlex_1968
     @Override
     public String toString() {
         return "Pixhexd{" +
-                "hex='" + hex + '\'' +
-                ", x=" + x +
+                "x='" + x + '\'' +
                 ", y=" + y +
+                ", hex=" + hex +
                 ", d=" + d +
                 '}';
     }
-    public boolean isAhexmap(){
 
-        return false;
-    }
 }
