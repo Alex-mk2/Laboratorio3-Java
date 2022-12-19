@@ -46,5 +46,20 @@ abstract class TDA_Pixel_MelladoAlex_19684813 {
                 ", d=" + d +
                 '}';
     }
-
+    //Metodo para invertir
+    //Recibe como parametro el largo
+    //Este metodo se ocupa para el flipH
+    //Dom: Largo
+    //Rec: Resta a la coordenada x
+    public void flipHCoordenadaX(int largo){
+        x = (x-1)*(-1);
+    }
+    //Metodo para invertir
+    //Recibe como parametro el ancho
+    //Este metodo se ocupa para el flipV
+    //Dom: Largo
+    //Rec: Resta a la coordenada Y
+    public void flipVCoordenadaY(int ancho){
+        y = (y-1)*(-1);
+    }
 }
